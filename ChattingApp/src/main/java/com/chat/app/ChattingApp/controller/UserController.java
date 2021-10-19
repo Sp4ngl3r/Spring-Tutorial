@@ -15,7 +15,6 @@ public class UserController {
     @PostMapping
     public String getUserDetails(@RequestBody User user){
         userService.saveUser(user);
-//        System.out.println(user);
         return "User Added";
     }
 }

@@ -12,6 +12,7 @@ public class UserService {
 
     public void saveUser(User user) {
         userRepository.save(user);
+        // Prints all the user details
         System.out.println(userRepository.findAll());
     }
 }

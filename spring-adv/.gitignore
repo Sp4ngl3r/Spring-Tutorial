@@ -132,3 +132,9 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Node modules in React Application
+node_modules
+
+/src/frontend/build
+/src/frontend/node
